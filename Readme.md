@@ -18,3 +18,7 @@ docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 ### Deployment
 Pushing changes to `main` branch will trigger the GitHub Action to build and deploy the docs to GitHub Pages.
 Your documentation should shortly appear at https://cepheivv.github.io/medbase-docs/.
+
+
+### References
+[mkdocs-material](https://squidfunk.github.io/mkdocs-material/setup/)
